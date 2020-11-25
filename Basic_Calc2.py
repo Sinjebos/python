@@ -21,7 +21,7 @@ def multiplication (num1, num2):
 def division (num1, num2):
     return num1 / num2
 
-# looping calculator until closed
+# looping calculator until closed by user
 calc = True
 while calc:
     try:
