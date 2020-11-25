@@ -1,3 +1,4 @@
+# the printing stuff.
 def msg(sum):
     if  sum < 50 and sum > 1:
         print(f"{sum} Is less than fifty")
@@ -10,7 +11,7 @@ def msg(sum):
     else:
         print(f"{sum} Missed the spot!")
 
-
+# all of the operators
 def addition (num1, num2):
     return num1 + num2
 def subraction (num1, num2):
@@ -20,7 +21,7 @@ def multiplication (num1, num2):
 def division (num1, num2):
     return num1 / num2
 
-
+# looping calculator until closed
 calc = True
 while calc:
     try:
@@ -38,5 +39,6 @@ while calc:
         elif operator == 5:
             print("Closing calculator, byebye")
             calc = False
+#you cant crash this
     except ValueError as err:
         print("Invalid input. Use numbers")
